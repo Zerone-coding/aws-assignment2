@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.refresh
+{   
+    display: flex;  
+    justify-content: center;  
+    align-items: center; 
+    margin-bottom: 40px;
+    margin-top: 20px;
+    
+}
+.refresh #refreshBtn
+{
+    font-size: 15px;
+    padding: 10px 50px 10px 45px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.09);
+    background: var(--white);
+    overflow: hidden;
+    color: var(--black1);
+}
+.refresh #refreshBtn:hover
+{
+    color: var(--white);
+    background-color: var(--blue);
+    cursor: pointer;
+}
+.mainBoard
+{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    margin-top: 5px;
+}
+.mainBoard .tableList
+{
+    position: relative;
+    display: grid;
+    min-height: 300px;
+    background-color: var(--white);
+    padding: 20px;
+    box-shadow: 0 7px 25px rgba(0,0,0,0.09);
+    border-radius: 20px;
+}
+
+.mainBoard table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.mainBoard table thead td
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.mainBoard .tableList table tr
+{
+    color: var(--black1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.mainBoard .tableList table tbody tr:last-child
+{   
+    border-bottom: none;
+}
+.mainBoard .tableList table tbody tr:hover
+{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.mainBoard .tableList table tr td
+{   
+    padding: 15px;
+}
+
+.mainBoard .tableList table tr td:first-child,
+.mainBoard .tableList table tr td:nth-child(4),
+.mainBoard .tableList table tr td:nth-child(5),
+.mainBoard .tableList table tr td:last-child
+{
+    text-align: center;
+}
+.mainBoard .tableList table tbody tr td
+{
+    font-size: 18px;
+}
+

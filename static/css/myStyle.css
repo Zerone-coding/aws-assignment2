@@ -1,0 +1,35 @@
+/*my css*/
+
+.form .col-md-4{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-center button{
+    margin-top: 20px;
+  }
+  
+  .profile-pic{
+    border-radius: 100px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+
+  .old-data{
+    font-size: 13px;
+    float: right;
+  }
+
+  .member img{
+    height: 300px;
+    background-color: white;
+  }
+  
+  .swiper-slide img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+  }
